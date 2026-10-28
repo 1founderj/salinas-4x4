@@ -39,3 +39,4 @@ Node: v22.14.0  Gestor: npm 10.9.2 (usando --legacy-peer-deps por incompatibilid
 
 - **Número de WhatsApp / Contacto:** En `src/content/site.ts` el número de WhatsApp está configurado en blanco (`""`) por diseño (esperando confirmación del propietario). El botón "Book now" redirecciona honestamente a `#booking` en modo "coming soon", tal como lo verifica `src/test/content.test.ts`.
 - **Ejecución local:** El servidor de desarrollo corre en `http://localhost:8080/` (puerto asignado automáticamente por Vite / TanStack Start).
+
